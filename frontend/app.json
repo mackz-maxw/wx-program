@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/todolist/todolist",
+    "pages/note/note",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "维星备忘录",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#a2a2a3",
+    "selectedColor": "#515151",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/todolist/todolist",
+        "iconPath": "pages/images/list.png",
+        "selectedIconPath": "pages/images/list2.png",
+        "text": "待办"
+      },
+      {
+        "pagePath": "pages/note/note",
+        "iconPath": "pages/images/list.png",
+        "selectedIconPath": "pages/images/list2.png",
+        "text": "笔记"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
